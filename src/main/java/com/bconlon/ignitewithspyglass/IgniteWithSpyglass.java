@@ -46,7 +46,7 @@ public class IgniteWithSpyglass
             if (entityHitResult != null && entityHitResult.getType() == HitResult.Type.ENTITY) {
                 Entity entity = entityHitResult.getEntity();
                 if (entity instanceof LivingEntity livingEntity) {
-                    if (player.hasLineOfSight(livingEntity) && !livingEntity.isOnFire() && livingEntity.getRemainingFireTicks() <= 0 && !livingEntity.fireImmune()) {
+                    if (player.hasLineOfSight(livingEntity) && !livingEntity.isOnFire() && livingEntity.getRemainingFireTicks() <= 0 && !livingEntity.fireImmune() && !livingEntity.isInWaterRainOrBubble()) {
                         targetedEntity = livingEntity;
                     }
                 }

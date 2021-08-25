@@ -8,7 +8,7 @@ version = "${file.jarVersion}"
 displayName = "Ignite With Spyglass"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/ignite-with-spyglass"
 logoFile = "ignitewithspyglass.png"
-credits = "Credits for the idea of this mod go to some friends who thought it'd be funny to make a mod."
+credits = "Credits for the idea of this mod go to some friends who thought it'd be funny to make."
 authors = "bconlon"
 description = '''
 Ignite With Spyglass lets you look at entities with a spyglass to slowly cause them to burn.

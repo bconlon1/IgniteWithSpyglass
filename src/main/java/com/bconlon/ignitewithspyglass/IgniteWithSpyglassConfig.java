@@ -13,7 +13,7 @@ public class IgniteWithSpyglassConfig
             builder.push("Gameplay");
             this.flammability_timer = builder
                     .comment("Sets how long it takes for a mob to be set on fire.")
-                    .define("Flammability Timer", 800);
+                    .define("Flammability Timer", 400);
             builder.pop();
         }
     }
