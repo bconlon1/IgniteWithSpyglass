@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[37,)"
+license = "LGPL-3.0"
+
+[[mods]]
+modId = "ignitewithspyglass"
+version = "${file.jarVersion}"
+displayName = "Ignite With Spyglass"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/ignite-with-spyglass"
+logoFile = "ignitewithspyglass.png"
+credits = "Credits for the idea of this mod go to some friends who thought it'd be funny to make a mod."
+authors = "bconlon"
+description = '''
+Ignite With Spyglass lets you look at entities with a spyglass to slowly cause them to burn.
+'''
+
+[[dependencies.ignitewithspyglass]]
+modId = "forge"
+mandatory = true
+versionRange = "[37,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.ignitewithspyglass]]
+modId = "minecraft"
+mandatory = true
+versionRange="[1.17.1,1.18)"
+ordering = "NONE"
+side = "BOTH"
